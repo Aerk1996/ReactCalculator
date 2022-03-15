@@ -2,8 +2,22 @@
 
 
 .calculator{
+  margin: auto;
+  width:60%;
+  border:5px solid #020201;
   
   align-items: center;
   display: grid;
   grid-template-columns: 120px 20px auto 40px;
+  font-size:65px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
+}
+
+
+th button {
+  color:antiquewhite;
+  font-size:65px;
+  background-color:rgb(38, 75, 100);
+  border-radius: 25px;
 }

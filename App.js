@@ -94,7 +94,7 @@ function App() {
         }
         if(sumFlag)
         {
-          setResult(parseInt(temp+result))
+          setResult(parseInt(temp)+ parseInt(result))
           setSumFlag(false)
         }
 
@@ -123,10 +123,14 @@ const acHandler = () =>{
 }
   return (
     <div className="calculator">
-            <table>
-              <tr>
+        <div> 
+      <div>
+      
                 {result}
-              </tr>
+              
+      </div>
+            <table>
+            
             <tr>
               <th>
                 <button onClick={sevenHandler}>7</button>
@@ -185,6 +189,7 @@ const acHandler = () =>{
               </th>
             </tr>
             </table>
+            </div>
     </div>
   );
 }
